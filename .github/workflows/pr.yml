@@ -13,5 +13,7 @@ jobs:
           terraform_wrapper: false
       - id: fmt
         run: terraform fmt -check -recursive
+      - id: init
+        run: terraform init
       - id: validate
         run: terraform validate
