@@ -9,7 +9,7 @@ variable "dmarc_rua" {
 
   validation {
     condition     = length(var.dmarc_rua) != 0
-    error_message = "Must contain at least one emauk address."
+    error_message = "Must contain at least one email address."
   }
 
   validation {
