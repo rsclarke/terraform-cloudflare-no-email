@@ -23,13 +23,6 @@ module {
 }
 ```
 
-## Requirements
-
-| Name | Version |
-|------|---------|
-| terraform | `~> 0.14.0` |
-| cloudflare | `>= 2.0` |
-
 ## Providers
 
 | Name | Version |
@@ -46,4 +39,4 @@ module {
 
 ## Outputs
 
-This module does not expose any ouputs.
+This module does not expose any outputs.
