@@ -27,7 +27,7 @@ module {
 
 | Name | Version |
 |------|---------|
-| cloudflare | `>= 2.0` |
+| cloudflare | `~>5.0` |
 
 ## Inputs
 
@@ -35,7 +35,7 @@ module {
 |------|-------------|------|:--------:|
 | zone_id | Cloudflare Zone ID | `string` | yes |
 | dmarc_rua | Email addresses for DMARC Aggregate reports (excluding `mailto:`), at least one and contains the `@` symbol. | `list(string)` | yes |
-| dmarc_rua | Email addresses for DMARC Failure (or Forensic) reports (excluding `mailto:`), at least one and contains the `@` symbol. | `list(string)` | yes |
+| dmarc_ruf | Email addresses for DMARC Failure (or Forensic) reports (excluding `mailto:`), at least one and contains the `@` symbol. | `list(string)` | yes |
 
 ## Outputs
 
